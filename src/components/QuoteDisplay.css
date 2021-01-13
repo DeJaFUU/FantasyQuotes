@@ -1,0 +1,36 @@
+.quote-box{
+  color: black;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  padding: 1%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+@media (min-width: 768px) { 
+    .quote-box {
+     max-width: 700px;
+     min-height: 250px;
+    }
+  }
+
+svg {
+  color: black;
+}
+
+.top{
+  display: flex;
+}
+
+.UpsideDown{
+  position: absolute;
+  right: 610px;
+  transform: rotate(180deg);
+}
+
+h2, h3 {
+    font-weight: bold;
+    font-family: georgia;
+    color: black;
+}

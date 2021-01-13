@@ -1,0 +1,12 @@
+.quote-button{
+    background-color: #194c43;
+    color: #e3b0b9;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px 100px;
+    cursor: pointer;
+    border: none;
+    }
+    .quote-button:hover{
+    color: black;
+    }
