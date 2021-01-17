@@ -1,11 +1,12 @@
 .quote-box{
-  color: black;
+  color: #4b4b4a;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 1%;
   padding: 1%;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 5px solid #C05269;
+  border-bottom: 5px solid #C05269;
+  position:relative;
 }
 
 @media (min-width: 768px) { 
@@ -25,12 +26,13 @@ svg {
 
 .UpsideDown{
   position: absolute;
-  right: 610px;
+  right:0;
+  bottom:20px;
   transform: rotate(180deg);
 }
 
 h2, h3 {
     font-weight: bold;
     font-family: georgia;
-    color: black;
+    color: #4b4b4a;
 }

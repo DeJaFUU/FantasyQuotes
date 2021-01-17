@@ -25,9 +25,9 @@ function App(){
 
     return (
       <div className="App">
-        <h1>Random Quote Generator </h1>
         { quotes[number]
         ? <>
+          <h1>Fantasy Quote Generator </h1>
           <QuoteDisplay title={quotes[number].source} text={quotes[number].text} author={quotes[number].author} />
             <QuoteButton onClick={quoteClick} />
             <ShareButton quote={quotes[number].text} author={quotes[number].author} />

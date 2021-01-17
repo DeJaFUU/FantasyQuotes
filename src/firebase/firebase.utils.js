@@ -1,8 +1,10 @@
 import firebase from 'firebase/app';
-import 'firebase/database'
+import 'firebase/database';
+
+require('dotenv').config()
 
   const config = {
-    apiKey: "AIzaSyCbFsLKu-JyQAZre8d6aOzogY4g5bNM0H8",
+    apiKey: process.env.API_KEY,
     authDomain: "quotemachine-11fb8.firebaseapp.com",
     databaseURL: "https://quotemachine-11fb8.firebaseio.com",
     projectId: "quotemachine-11fb8",
@@ -13,6 +15,7 @@ import 'firebase/database'
   }
   
   firebase.initializeApp(config);
+
 
   export const database = firebase.database();
   
