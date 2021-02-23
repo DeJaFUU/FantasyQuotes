@@ -22,9 +22,9 @@ You sure can. There are 2 options to pick from:
     { 
     "quotes": {
             "1": { 
-                 "text": "Ambition is not a dirty word. Piss on compromise. Go for the throat.",
-                 "author":"Steven Erikson",
-                 "source": "Gardens of the Moon" 
+                "text": "Congratulations! We're reverse burglars, here to give you fifty gold solari!", 
+                "author": "Scott Lynch", 
+                "source": "Red Seas Under Red Skies"
             },
             "2": {  
                 "text": "Wise words are like arrows flung at your forehead. What do you do? Why, you duck of course.", 
