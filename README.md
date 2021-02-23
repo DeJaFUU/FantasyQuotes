@@ -12,11 +12,11 @@ You sure can. There are 2 options to pick from:
 - Clone the repository and use your own API for quotes it will require the following:
 
  1. Your own API with JSON files requiring the following format :
-    Quotes: object
-      Number(starting from 1 till Quotes.length): object
-        Text: String
-        Author: String
-        Source: String
+    - Quotes: object
+      - Number(starting from 1 till Quotes.length): object
+        - Text: String
+        - Author: String
+        - Source: String
         
     ```JSON
     { 
